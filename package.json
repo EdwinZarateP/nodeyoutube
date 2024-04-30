@@ -1,0 +1,15 @@
+{
+  "name": "nodeyoutube",
+  "version": "0.0.1",
+  "description": "Proyecto node de youtube",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "edwin zarate",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
