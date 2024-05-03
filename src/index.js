@@ -1,12 +1,9 @@
-import { getTitle, getAutor } from './funciones.js'
-import { curso } from './objetos.js'
+import { config } from "dotenv";
+// import * as env from 'env-var'
+import env from 'env-var'
 
-// Se puede hacer asi:
-// const { getTitle, getAutor } = require('./funciones')
-// const { curso } =  require('./objetos')
-const { nombre, autor }= curso
+config()
+const PORT = env.get('PORT').required().asPortNumber()
 
-console.log(getTitle())
-console.log(getAutor('Edwincito'))
-console.log(nombre)
-console.log(autor)
+
+console.log(PORT)

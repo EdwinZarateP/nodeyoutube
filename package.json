@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Proyecto node de youtube",
   "main": "src/index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon src/index.js"
@@ -12,5 +12,9 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "env-var": "^7.4.1"
   }
 }
